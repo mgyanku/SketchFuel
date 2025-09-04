@@ -1,4 +1,6 @@
-# SketchFuel
+# 🎨 SketchFuel 🎨
+
+A playful web app that helps artists fight art block! 🎨 Generate random color palettes and quirky props to spark new drawing ideas. Perfect for when you need a boost of inspiration or just want to experiment with new combos.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
 
