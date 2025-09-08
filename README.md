@@ -5,7 +5,7 @@ A playful web app that helps artists fight art block! 🎨 Generate random color
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
 
 WIP Screenshot
-![](C:\Users\Miriam\IdeaProjects\SketchFuel\assets\screeenshotwip.png)
+![](assets/screeenshotwip.png)
 
 ## Development server
 
