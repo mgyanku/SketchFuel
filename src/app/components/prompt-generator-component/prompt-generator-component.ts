@@ -13,9 +13,13 @@ export class PromptGeneratorComponent {
   constructor(private promptService: PromptService) {
   }
 
-  ngOnInit() {
+  generatePrompt() {
     this.promptService.getRandom().subscribe((res: any) => {
       this.prompt = res.prompt;
     });
+  }
+
+  ngOnInit() {
+    this.generatePrompt()
   }
 }

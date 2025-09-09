@@ -15,7 +15,7 @@ const randomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 // Load palettes, styles, and prompts once at startup
 const palettes = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'colors', 'general.json'), 'utf8')).palettes;
-const styles = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'styles', 'general.json'), 'utf8')).styles;
+const mood = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'moods', 'general.json'), 'utf8')).moods;
 const prompts = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'prompts', 'general.json'), 'utf8')).prompts;
 
 // Endpoint: returns all prompts
@@ -27,9 +27,9 @@ app.get('/prompts/all', (req, res) => {
 app.get('/prompts/random', (req, res) => {
   const randomPrompt = randomItem(prompts);
   const randomPalette = randomItem(palettes);
-  const randomStyle = randomItem(styles);
+  const randomMood = randomItem(mood);
 
-  const fullPrompt = `Draw a ${randomPrompt} using a ${randomPalette} color scheme in a ${randomStyle} style!`;
+  const fullPrompt = `Draw a ${randomPrompt} using a ${randomPalette} color scheme with a ${randomMood} feeling!`;
 
   res.json({ prompt: fullPrompt });
 });
