@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import {PromptGeneratorView} from '../prompt-generator-view/prompt-generator-view';
+import {PromptGeneratorComponent} from '../../components/prompt-generator-component/prompt-generator-component';
 
 @Component({
   selector: 'app-home',
-  imports: [PromptGeneratorView],
+  imports: [PromptGeneratorComponent],
   templateUrl: './home-view.html',
   styleUrl: './home-view.css'
 })
