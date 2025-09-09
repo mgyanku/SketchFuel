@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeView } from './homeView';
+import { HomeView } from './home-view';
 
 describe('Home', () => {
   let component: HomeView;

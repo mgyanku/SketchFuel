@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PromptGeneratorView } from './promptGeneratorView';
+import { HeaderView } from './header-view';
 
-describe('PromptGenerator', () => {
-  let component: PromptGeneratorView;
-  let fixture: ComponentFixture<PromptGeneratorView>;
+describe('Header', () => {
+  let component: HeaderView;
+  let fixture: ComponentFixture<HeaderView>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PromptGeneratorView]
+      imports: [HeaderView]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PromptGeneratorView);
+    fixture = TestBed.createComponent(HeaderView);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

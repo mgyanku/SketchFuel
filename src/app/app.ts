@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {HeaderView} from './views/headerView/headerView';
-import {HomeView} from './views/homeView/homeView';
-import {PromptGeneratorView} from './views/promptGeneratorView/promptGeneratorView';
+import {HeaderView} from './views/header-view/header-view';
+import {HomeView} from './views/home-view/home-view';
+import {PromptGeneratorView} from './views/prompt-generator-view/prompt-generator-view';
 
 @Component({
   selector: 'app-root',

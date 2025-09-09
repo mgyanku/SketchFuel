@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import {HomeView} from './views/homeView/homeView';
-import {PromptGeneratorView} from './views/promptGeneratorView/promptGeneratorView';
+import {HomeView} from './views/home-view/home-view';
+import {PromptGeneratorView} from './views/prompt-generator-view/prompt-generator-view';
 
 export const routes: Routes = [
   { path: '', component: HomeView },
