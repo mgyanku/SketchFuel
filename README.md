@@ -1,6 +1,3 @@
-Got it — here’s an updated version of your README with the **Express backend** included and the structure tightened a bit for clarity:
-
----
 
 # 🎨 SketchFuel
 
