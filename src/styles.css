@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@tailwind utilities;
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,9 +20,9 @@ h1, h2 {
 }
 
 .content-container {
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   border-radius: 10px;
-  border: dashed #c4c4c4 5px;
+  border: dashed #857a74 5px;
   background-color: white;
 }
 

@@ -1,0 +1,32 @@
+{
+  "palettes": [
+    {
+      "name": "Classic Mono",
+      "hexcodes": ["#000000", "#333333", "#666666", "#999999", "#FFFFFF"]
+    },
+    {
+      "name": "Ocean Breeze",
+      "hexcodes": ["#0B1320", "#1B4965", "#5FA8D3", "#CAE9FF", "#FFFFFF"]
+    },
+    {
+      "name": "Sunset Warm",
+      "hexcodes": ["#2B2D42", "#8D99AE", "#EF233C", "#F77F00", "#FFD166"]
+    },
+    {
+      "name": "Forest Calm",
+      "hexcodes": ["#1B4332", "#2D6A4F", "#40916C", "#95D5B2", "#D8F3DC"]
+    },
+    {
+      "name": "Purple Neon",
+      "hexcodes": ["#10002B", "#240046", "#5A189A", "#9D4EDD", "#C77DFF"]
+    },
+    {
+      "name": "Soft Pastel",
+      "hexcodes": ["#FFB5A7", "#FCD5CE", "#F8EDEB", "#D8E2DC", "#BFD7EA"]
+    },
+    {
+      "name": "Fire Pop",
+      "hexcodes": ["#2D00F7", "#6A00F4", "#8900F2", "#B100E8", "#E500A4"]
+    }
+  ]
+}

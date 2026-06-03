@@ -17,6 +17,7 @@ const randomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const palettes = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'colors', 'general.json'), 'utf8')).palettes;
 const mood = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'moods', 'general.json'), 'utf8')).moods;
 const prompts = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'prompts', 'general.json'), 'utf8')).prompts;
+const hexcodes = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'hexcodes', 'general.json'), 'utf8')).palettes;
 
 // Endpoint: returns all prompts
 app.get('/prompts/all', (req, res) => {
@@ -32,6 +33,14 @@ app.get('/prompts/random', (req, res) => {
   const fullPrompt = `Draw a ${randomPrompt} using a ${randomPalette} color scheme with a ${randomMood} feeling!`;
 
   res.json({ prompt: fullPrompt });
+});
+
+app.get('/hexcodes/all', (req, res) => {
+  res.json(hexcodes);
+});
+
+app.get('/hexcodes/random', (req, res) => {
+  res.json(randomItem(hexcodes));
 });
 
 app.listen(PORT, () => {
