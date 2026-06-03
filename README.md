@@ -1,64 +1,117 @@
-# 🎨 SketchFuel 🎨
+Got it — here’s an updated version of your README with the **Express backend** included and the structure tightened a bit for clarity:
 
-A playful web app that helps artists fight art block! 🎨 Generate random color palettes and quirky props to spark new drawing ideas. Perfect for when you need a boost of inspiration or just want to experiment with new combos.
+---
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+# 🎨 SketchFuel
 
-WIP Screenshot
-![](assets/screenshotwip.png)
+A playful web app that helps artists break through art block.
 
-## Development server
+Generate random color palettes and quirky prop ideas to spark inspiration, experiment with unexpected combinations, and kickstart your next drawing.
 
-To start a local development server, run:
+Built with **Angular (frontend)** and **Express (backend)**.
+
+---
+
+## ✨ Preview
+
+
+![SketchFuel preview](assets/screenshotwip.png)
+
+---
+
+## 🏗️ Tech Stack
+
+* 🅰️ Angular (Frontend)
+* 🟢 Node.js + Express (Backend)
+* 🎨 Random palette + idea generation system
+* ⚡ REST API communication between client and server
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+
+Frontend:
+
+```bash
+npm install
+```
+
+Backend:
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+### 2. Run the backend
+
+```bash
+cd backend
+npm run dev
+```
+
+---
+
+### 3. Run the frontend
+
+In a separate terminal:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open:
 
-## Code scaffolding
+```
+http://localhost:4200/
+```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+The app will auto-reload on changes.
+
+---
+
+## 🧩 Features
+
+* 🎨 Random color palette generator
+* 🎲 Quirky prop / drawing idea generator
+* 🔌 Angular ↔ Express API integration
+* 💡 Designed to fight art block and boost creativity
+
+---
+
+## 🛠️ Development
+
+### Generate a new Angular component
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Explore schematics
 
 ```bash
 ng generate --help
 ```
 
-## Building
+---
 
-To build the project run:
+## 📦 Build
+
+### Frontend production build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+## 🧪 Testing
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Unit tests
 
 ```bash
 ng test
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
