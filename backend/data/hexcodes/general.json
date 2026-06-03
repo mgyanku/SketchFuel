@@ -27,6 +27,47 @@
     {
       "name": "Fire Pop",
       "hexcodes": ["#2D00F7", "#6A00F4", "#8900F2", "#B100E8", "#E500A4"]
+    },
+
+    {
+      "name": "Cyberpunk Neon",
+      "hexcodes": ["#0D0221", "#0F084B", "#26408B", "#A6CFD5", "#F72585"]
+    },
+    {
+      "name": "Acid Glitch",
+      "hexcodes": ["#39FF14", "#FF00FF", "#00FFFF", "#FFFF00", "#FF3131"]
+    },
+    {
+      "name": "Deep Space",
+      "hexcodes": ["#02010A", "#090C9B", "#3C096C", "#5A189A", "#C77DFF"]
+    },
+    {
+      "name": "Retro Arcade",
+      "hexcodes": ["#1B0034", "#FF0054", "#F9C80E", "#00F5D4", "#9B5DE5"]
+    },
+    {
+      "name": "Ocean Neon",
+      "hexcodes": ["#001219", "#005F73", "#0A9396", "#94D2BD", "#E9D8A6"]
+    },
+    {
+      "name": "Toxic Waste",
+      "hexcodes": ["#1A1A1A", "#B8FF00", "#6EEB83", "#00FF87", "#0FFF95"]
+    },
+    {
+      "name": "Candy Shock",
+      "hexcodes": ["#FF69B4", "#FFB703", "#8EECF5", "#B5179E", "#7209B7"]
+    },
+    {
+      "name": "Glitch Storm",
+      "hexcodes": ["#11001C", "#290628", "#4C1D95", "#7C3AED", "#E879F9"]
+    },
+    {
+      "name": "Sunset Vaporwave",
+      "hexcodes": ["#FF6EC7", "#FFD6FF", "#C77DFF", "#7209B7", "#3A0CA3"]
+    },
+    {
+      "name": "Matrix Glow",
+      "hexcodes": ["#000000", "#003B00", "#00FF41", "#008F11", "#00C853"]
     }
   ]
 }
