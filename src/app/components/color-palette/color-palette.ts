@@ -15,6 +15,10 @@ export class ColorPalette {
   constructor(private hexcodeService: HexcodeService) {
   }
 
+  ngOnInit() {
+    this.generateHexcode()
+  }
+
   generateHexcode() {
     this.hexcodeService.getRandom().subscribe((res: any) => {
       this.name = res.name;
