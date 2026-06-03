@@ -3,7 +3,8 @@
   <br>
   <div class="inner-container">
     <div class="content-container">
-      <h2>“{{this.prompt}}”</h2>
+      <h2 *ngIf="prompt">“{{ prompt }}”</h2>
+      <h2 *ngIf="!prompt">Click on "Generate!" for a fun art prompt 💭</h2>
     </div>
     <div class="button-list">
       <button (click)="generatePrompt()">Generate!</button>

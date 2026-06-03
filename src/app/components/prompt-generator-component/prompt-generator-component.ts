@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import {PromptService} from '../../service/prompt-service/prompt-service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-prompt-generator',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './prompt-generator-component.html',
   styleUrl: './prompt-generator-component.css'
 })
