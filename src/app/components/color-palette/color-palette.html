@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Color palette generator</h2>
+  <br>
+  <div class="inner-container">
+    <div class="content-container">
+      <h3 *ngIf="name">{{this.name}}</h3>
+      <div class="flex gap-4 w-full p-4">
+        <div
+          *ngFor="let color of hexcodes"
+          class="flex-1 h-40"
+          [style.backgroundColor]="color">
+        </div>
+      </div>
+      <div class="flex gap-4 w-full p-4">
+        <div
+          *ngFor="let color of hexcodes"
+          class="flex-1 h-10 text-center">
+          {{ color }}
+        </div>
+      </div>
+    </div>
+    <div class="button-list">
+      <button (click)="generateHexcode()">Generate!</button>
+    </div>
+  </div>
+</div>
